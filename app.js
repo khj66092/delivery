@@ -6,8 +6,16 @@
 
 // ▼ (선택) Firebase 설정을 여기에 직접 붙여넣으면, 이 파일을 연 모든 기기가 링크 없이 자동으로 연결됩니다.
 //   예) const FIXED_FIREBASE_CONFIG = { apiKey: "...", authDomain: "...", databaseURL: "...", projectId: "..." };
-const FIXED_FIREBASE_CONFIG = null;
-const FIXED_CLASS_CODE = '';
+const FIXED_FIREBASE_CONFIG = {
+  apiKey: "AIzaSyD3_oVWJixIK2ahKVrMwo7HqfDWC_Idqi8",
+  authDomain: "doumban-delivery.firebaseapp.com",
+  databaseURL: "https://doumban-delivery-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "doumban-delivery",
+  storageBucket: "doumban-delivery.firebasestorage.app",
+  messagingSenderId: "272313076781",
+  appId: "1:272313076781:web:c3dbca44dcfec7235b3ca4",
+};
+const FIXED_CLASS_CODE = 'class1';
 const FB_VER = '10.12.2';
 
 const CATS = [
